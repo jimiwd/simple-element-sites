@@ -10,12 +10,16 @@ body{
     background-color: #ffffff;
     width: 870px;
     border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
+
 .section-title {
     color: blue;
     font-size: 24px;
@@ -25,6 +29,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap:30px;
+    margin-bottom: 21px ;
 }
 
 .player{
@@ -42,6 +47,7 @@ main {
 hr {
     border: 1px solid #D1D1D1;
     width: 807px;
+    margin-bottom: 21px;
 }
 .blog-title{
     font-size: 20px;
@@ -57,9 +63,54 @@ hr {
 }
 .blog .thumbnail img {
     width: 177px;
-    height: 177px;
+    height: 117px;
 }
 .blogs {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+
+.Courses {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:20px;
+}
+.Courses .courses-banner img {
+  width: 224px;
+  height: 104px;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+
+.course-duration {
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color:#da7373 ;
+    border-radius: 15px;
+    width: 90px;
+    position: relative;
+    padding:5px 10px ;
+    
+}
+.review {
+    color: #9F9F9F;
+}
+.courses-banner {
+    font-size:15px ;
+    color: red;
+    background-color: azure;
+    border-radius: 16px;
+    padding: 5px 10px;
+}
+.footer p {
+ color: #A2A2A2;
+ text-align: center;
+}
+.footer p a {
+    text-decoration: none;
+    color: red;
 }
